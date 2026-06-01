@@ -47,6 +47,7 @@ extra_css:
 
 nav:
   - 首页: index.md
+  - 项目管理: project-management.md
   - H3CIE-RS+ 面试笔记: h3cie.md
 
 extra:
