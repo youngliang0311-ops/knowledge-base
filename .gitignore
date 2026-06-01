@@ -1,4 +1,4 @@
 
-# Local xmind source files
-xmind/
+# Local xmind source files (only at repo root)
+/xmind/
 site/
