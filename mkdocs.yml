@@ -44,6 +44,10 @@ markdown_extensions:
 
 nav:
   - 首页: index.md
+  - H3CIE-RS+ 面试:
+    - 01-二层技术: h3cie/01-二层技术.md
+    - 02-路由与控制: h3cie/02-路由与控制.md
+    - 03-H3CIE面试题: h3cie/03-H3CIE面试题.md
 
 extra:
   social:
