@@ -8,7 +8,7 @@
 
 ### 1.1 需求来源
 
-作为即将入职东方财富期货网络管理岗的网络工程毕业生，我在备考 **H3CIE-RS+** 面试、准备 **期货从业资格证** 的日常学习中，产生了大量 XMind 思维导图笔记。最初面临几个痛点：
+作为即将入职金融科技行业的网络工程毕业生，我在备考 **H3CIE-RS+** 面试、准备 **期货从业资格证** 的日常学习中，产生了大量 XMind 思维导图笔记。最初面临几个痛点：
 
 - ❌ 笔记散落在本地，无法随时随地从其他设备查看
 - ❌ XMind 文件不方便分享，发给别人还要装软件
@@ -54,7 +54,7 @@
 | **GitHub** | 代码托管 | 免费公开仓库 |
 | **GitHub Actions** | CI/CD 流水线 | push 触发自动构建部署 |
 | **GitHub Pages** | 静态网站托管 | 免费 CDN 分发 |
-| **Hermes Agent（烁烁）** | AI 助手 | 基于 Nous Research 的 Hermes Agent 框架 |
+| **Hermes Agent** | AI 助手 | 基于 Nous Research 的开源 AI Agent 框架 |
 | **DeepSeek v4 Flash** | 底层大语言模型 | 负责需求分析、代码编写、架构设计、问题排查 |
 | **pip（清华镜像）** | Python 包管理 | 在中国网络环境下使用 tuna 镜像加速 |
 | **xmindparser** | XMind 解析工具 | 将 .xmind 思维导图转为 Markdown 格式 |
@@ -127,7 +127,7 @@ knowledge-base/
 ### 5.1 添加新笔记
 
 1. 将 XMind 文件放入本地 `xmind/` 目录下
-2. 通知烁烁（Hermes Agent），它会：
+2. 通知 Hermes Agent，它会：
    - 将 XMind 转换为 Markdown 或直接归档原始文件
    - 更新站点导航
    - 推送到 GitHub 自动部署
@@ -148,7 +148,7 @@ python3 -m mkdocs serve
 
 ## 六、项目价值
 
-### 6.1 对于当前岗位（东方财富期货·网络管理岗）
+### 6.1 对于当前岗位
 
 - **文档规范意识**：金融行业对操作记录、变更管理、故障复盘文档要求严格，这个项目体现了规范化文档管理的习惯
 - **自动化思维**：CI/CD 流程与运维自动化理念相通
@@ -164,7 +164,7 @@ python3 -m mkdocs serve
 
 ## 七、关于本项目中的 AI 助手
 
-本项目在构建过程中，由 **Hermes Agent（烁烁）** 作为 AI 编程助手全程参与。
+本项目在构建过程中，由 **Hermes Agent** 作为 AI 编程助手全程参与。
 
 - **框架：** Hermes Agent（由 Nous Research 开发的开源 AI Agent 框架）
 - **模型：** DeepSeek v4 Flash（底层大语言模型）
