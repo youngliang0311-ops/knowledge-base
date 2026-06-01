@@ -1,0 +1,53 @@
+site_name: 漾的学习笔记
+site_description: 网络工程 · Linux · 金融科技学习笔记
+site_author: youngliang0311-ops
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: 切换暗色模式
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: 切换亮色模式
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - admonition
+  - footnotes
+  - toc:
+      permalink: true
+
+nav:
+  - 首页: index.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/youngliang0311-ops
+
+copyright: Copyright &copy; 2026 漾的学习笔记
